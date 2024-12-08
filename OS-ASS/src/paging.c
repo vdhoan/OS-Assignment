@@ -1,7 +1,7 @@
 
+#include "mem.h"
 #include "cpu.h"
 #include "loader.h"
-#include "mem.h"
 #include <stdio.h>
 
 int main() {
