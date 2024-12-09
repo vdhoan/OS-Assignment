@@ -1,0 +1,38 @@
+Time slot   0
+ld_routine
+	Loaded a process at input/proc/m0s, PID: 1 PRIO: 0
+Time slot   1
+	CPU 0: Dispatched process  1
+Time slot   2
+Time slot   3
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  1
+Time slot   4
+Time slot   5
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  1
+write region=1 offset=20 value=102
+print_pgtbl: 0 - 512
+00000000: 80000001
+00000004: 80000000
+---MEM DUMP---
+Time slot   6
+write region=2 offset=1000 value=1
+print_pgtbl: 0 - 512
+00000000: 80000001
+00000004: 80000000
+---MEM DUMP---
+00000014: 00000066
+Time slot   7
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  1
+write region=0 offset=0 value=0
+print_pgtbl: 0 - 512
+00000000: 80000001
+00000004: c0000000
+---MEM DUMP---
+00000014: 00000066
+000000b0: 00000001
+Time slot   8
+	CPU 0: Processed  1 has finished
+	CPU 0 stopped
